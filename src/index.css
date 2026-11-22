@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FFF9FA;
+    color: #4A2535;
+    font-family: 'Fredoka', 'Nunito', system-ui, sans-serif;
+  }
+}
+
+/* Perspective utilities for 3D card flips */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Custom scrollbar for maximum kawaii aesthetic */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF0F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFB6C6;
+  border-radius: 9999px;
+  border: 2px solid #FFF0F5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF8FAB;
+}

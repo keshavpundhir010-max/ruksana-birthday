@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="roomWarmth" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE4EC"/>
+      <stop offset="100%" stop-color="#FED7AA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cozy Bedroom / Fort Wall -->
+  <rect width="600" height="450" fill="url(#roomWarmth)"/>
+
+  <!-- Window with Gentle Rain Droplets -->
+  <rect x="40" y="40" width="160" height="180" rx="12" fill="#89CFF0" stroke="#FFFFFF" stroke-width="6"/>
+  <line x1="40" y1="130" x2="200" y2="130" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="120" y1="40" x2="120" y2="220" stroke="#FFFFFF" stroke-width="4"/>
+  <!-- Rain trails -->
+  <line x1="70" y1="60" x2="60" y2="90" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="150" y1="70" x2="140" y2="110" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="90" y1="150" x2="80" y2="180" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="160" y1="140" x2="150" y2="170" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Blanket Fort Sheets Hanging on Fairy Lights -->
+  <path d="M 0 100 Q 300 20 600 100" fill="none" stroke="#FDE68A" stroke-width="3"/>
+  <path d="M 0 100 Q 300 20 600 100 L 600 220 Q 300 120 0 220 Z" fill="#FFF0F5" opacity="0.85"/>
+
+  <!-- Glowing Warm Fairy Lights -->
+  <circle cx="100" cy="72" r="6" fill="#FCD34D"/>
+  <circle cx="180" cy="50" r="6" fill="#FF8FAB"/>
+  <circle cx="260" cy="38" r="6" fill="#FCD34D"/>
+  <circle cx="340" cy="38" r="6" fill="#89CFF0"/>
+  <circle cx="420" cy="50" r="6" fill="#FCD34D"/>
+  <circle cx="500" cy="72" r="6" fill="#FF8FAB"/>
+
+  <!-- Fluffy Pillows Mountain -->
+  <ellipse cx="220" cy="280" rx="70" ry="40" fill="#FFFFFF" stroke="#4A2535" stroke-width="3"/>
+  <ellipse cx="380" cy="280" rx="70" ry="40" fill="#FFFFFF" stroke="#4A2535" stroke-width="3"/>
+  <ellipse cx="300" cy="270" rx="80" ry="45" fill="#FFD1DC" stroke="#4A2535" stroke-width="3.5"/>
+  <text x="300" y="275" font-size="24" text-anchor="middle">🎀</text>
+
+  <!-- Big Red & White Striped Popcorn Bucket -->
+  <g transform="translate(140, 290)">
+    <polygon points="10,20 20,90 70,90 80,20" fill="#FFFFFF" stroke="#4A2535" stroke-width="3"/>
+    <polygon points="24,20 28,90 38,90 34,20" fill="#FF4D6D"/>
+    <polygon points="46,20 48,90 58,90 56,20" fill="#FF4D6D"/>
+    <!-- Popcorn Clouds on top -->
+    <circle cx="30" cy="18" r="10" fill="#FEF08A"/>
+    <circle cx="45" cy="14" r="11" fill="#FEF3C7"/>
+    <circle cx="60" cy="18" r="10" fill="#FEF08A"/>
+    <circle cx="38" cy="8" r="9" fill="#FFFBEB"/>
+  </g>
+
+  <!-- Cute Hello Kitty Plushie Lounging -->
+  <g transform="translate(400, 270)">
+    <ellipse cx="40" cy="50" rx="30" ry="24" fill="#FFFFFF" stroke="#4A2535" stroke-width="3"/>
+    <circle cx="30" cy="48" r="2.5" fill="#4A2535"/>
+    <circle cx="50" cy="48" r="2.5" fill="#4A2535"/>
+    <ellipse cx="40" cy="53" rx="3.5" ry="2.5" fill="#FCD34D"/>
+    <!-- Ears -->
+    <polygon points="18,36 12,18 28,26" fill="#FFFFFF" stroke="#4A2535" stroke-width="3"/>
+    <polygon points="62,36 68,18 52,26" fill="#FFFFFF" stroke="#4A2535" stroke-width="3"/>
+    <!-- Bow -->
+    <circle cx="55" cy="24" r="6" fill="#FF6B8B"/>
+  </g>
+
+  <!-- Cozy Quilted Blanket at bottom -->
+  <rect x="0" y="340" width="600" height="110" fill="#F472B6" stroke="#4A2535" stroke-width="4"/>
+  <path d="M 0 340 L 600 340" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="15 15"/>
+
+  <!-- Caption Pill in Art -->
+  <rect x="170" y="405" width="260" height="30" rx="15" fill="#FFFFFF" stroke="#FF8FAB" stroke-width="2"/>
+  <text x="300" y="425" font-family="'Fredoka', sans-serif" font-size="13" font-weight="bold" fill="#4A2535" text-anchor="middle">
+    Cozy Rainy Movie Marathons 🍿🌧️
+  </text>
+</svg>

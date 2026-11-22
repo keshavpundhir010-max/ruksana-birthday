@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cafeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE4EC"/>
+      <stop offset="50%" stop-color="#FFF0F5"/>
+      <stop offset="100%" stop-color="#FFD1DC"/>
+    </linearGradient>
+    <linearGradient id="windowSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#BFE3F7"/>
+      <stop offset="100%" stop-color="#FFF9FA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Cafe Wall -->
+  <rect width="600" height="450" fill="url(#cafeBg)"/>
+  
+  <!-- Cafe Window with Sunlight -->
+  <rect x="70" y="40" width="220" height="200" rx="110" fill="url(#windowSky)" stroke="#FFFFFF" stroke-width="8"/>
+  <line x1="70" y1="140" x2="290" y2="140" stroke="#FFFFFF" stroke-width="6"/>
+  <line x1="180" y1="40" x2="180" y2="240" stroke="#FFFFFF" stroke-width="6"/>
+  
+  <!-- Window Flower Box -->
+  <rect x="55" y="235" width="250" height="20" rx="6" fill="#FF8FAB"/>
+  <circle cx="85" cy="230" r="12" fill="#FF6B8B"/>
+  <circle cx="85" cy="230" r="4" fill="#FCD34D"/>
+  <circle cx="125" cy="228" r="14" fill="#FFFFFF"/>
+  <circle cx="125" cy="228" r="5" fill="#FF8FAB"/>
+  <circle cx="165" cy="230" r="12" fill="#FF6B8B"/>
+  <circle cx="165" cy="230" r="4" fill="#FCD34D"/>
+  <circle cx="205" cy="228" r="13" fill="#FFFFFF"/>
+  <circle cx="245" cy="230" r="12" fill="#FF6B8B"/>
+
+  <!-- Fairy Lights Bunting -->
+  <path d="M 0 30 Q 150 70 300 30 Q 450 70 600 30" fill="none" stroke="#4A2535" stroke-width="2"/>
+  <circle cx="80" cy="50" r="6" fill="#FCD34D" opacity="0.9"/>
+  <circle cx="150" cy="54" r="6" fill="#FF6B8B" opacity="0.9"/>
+  <circle cx="220" cy="48" r="6" fill="#89CFF0" opacity="0.9"/>
+  <circle cx="380" cy="50" r="6" fill="#FCD34D" opacity="0.9"/>
+  <circle cx="450" cy="54" r="6" fill="#FF6B8B" opacity="0.9"/>
+  <circle cx="520" cy="48" r="6" fill="#89CFF0" opacity="0.9"/>
+
+  <!-- Wooden Cafe Table -->
+  <ellipse cx="300" cy="390" rx="270" ry="85" fill="#FFFFFF" stroke="#4A2535" stroke-width="5"/>
+  <ellipse cx="300" cy="385" rx="260" ry="78" fill="#FFF9FA"/>
+
+  <!-- Gingham Tablecloth Runner -->
+  <path d="M 170 320 L 430 320 L 460 450 L 140 450 Z" fill="#FFE4E6" opacity="0.6"/>
+
+  <!-- Two Cute Cups on Table -->
+  <!-- Left Cup (Strawberry Tea) -->
+  <rect x="180" y="310" width="60" height="50" rx="10" fill="#FFFFFF" stroke="#4A2535" stroke-width="4"/>
+  <path d="M 180 325 C 160 325 160 345 180 345" fill="none" stroke="#4A2535" stroke-width="4"/>
+  <ellipse cx="210" cy="310" rx="30" ry="8" fill="#FF8FAB"/>
+  <!-- Foam Heart -->
+  <path d="M 210 308 C 206 304 200 307 203 311 L 210 316 L 217 311 C 220 307 214 304 210 308 Z" fill="#FFFFFF"/>
+  <text x="210" y="342" font-size="16" text-anchor="middle">🎀</text>
+
+  <!-- Right Cup (Latte with Cat Foam) -->
+  <rect x="360" y="310" width="60" height="50" rx="10" fill="#FFFFFF" stroke="#4A2535" stroke-width="4"/>
+  <path d="M 420 325 C 440 325 440 345 420 345" fill="none" stroke="#4A2535" stroke-width="4"/>
+  <ellipse cx="390" cy="310" rx="30" ry="8" fill="#D4A373"/>
+  <circle cx="390" cy="310" r="5" fill="#FFFFFF"/>
+  <text x="390" y="342" font-size="16" text-anchor="middle">🐾</text>
+
+  <!-- Strawberry Shortcake on Center Platter -->
+  <ellipse cx="300" cy="335" rx="42" ry="14" fill="#FFFFFF" stroke="#4A2535" stroke-width="3"/>
+  <!-- Slice of Cake -->
+  <polygon points="275,325 325,325 315,285 285,285" fill="#FEF08A" stroke="#4A2535" stroke-width="3"/>
+  <!-- Cream Layers -->
+  <line x1="278" y1="305" x2="322" y2="305" stroke="#FFFFFF" stroke-width="5"/>
+  <line x1="281" y1="315" x2="319" y2="315" stroke="#FF6B8B" stroke-width="4"/>
+  <!-- Big Strawberry on top -->
+  <circle cx="300" cy="280" r="10" fill="#FF3366"/>
+  <polygon points="296,272 300,266 304,272" fill="#86EFAC"/>
+
+  <!-- Decorative Sparkles and Hearts -->
+  <text x="140" y="280" font-size="22" fill="#FF6B8B">✨</text>
+  <text x="450" y="270" font-size="24" fill="#FF6B8B">💖</text>
+  <text x="300" y="230" font-size="28" fill="#FCD34D">✦</text>
+
+  <!-- Caption Pill in Art -->
+  <rect x="200" y="405" width="200" height="30" rx="15" fill="#FFFFFF" stroke="#FF8FAB" stroke-width="2"/>
+  <text x="300" y="425" font-family="'Fredoka', sans-serif" font-size="13" font-weight="bold" fill="#4A2535" text-anchor="middle">
+    Our First Cafe Date ☕🍰
+  </text>
+</svg>

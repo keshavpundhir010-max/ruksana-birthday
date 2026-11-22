@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sunsetSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF9EB5"/>
+      <stop offset="40%" stop-color="#FFD1DC"/>
+      <stop offset="75%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#BFE3F7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cotton Candy Sky -->
+  <rect width="600" height="450" fill="url(#sunsetSky)"/>
+
+  <!-- Golden Sun -->
+  <circle cx="300" cy="220" r="55" fill="#FFFBEB" opacity="0.9"/>
+  <circle cx="300" cy="220" r="75" fill="#FEF3C7" opacity="0.4"/>
+
+  <!-- Distant Fluffy Pastel Clouds -->
+  <ellipse cx="140" cy="180" rx="80" ry="30" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="200" cy="170" rx="60" ry="25" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="440" cy="160" rx="90" ry="32" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="500" cy="170" rx="60" ry="25" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Rolling Hills -->
+  <path d="M 0 320 Q 180 270 340 320 Q 480 360 600 310 L 600 450 L 0 450 Z" fill="#FBCFE8" opacity="0.6"/>
+  <path d="M 0 350 Q 220 310 420 360 Q 520 380 600 340 L 600 450 L 0 450 Z" fill="#F472B6" opacity="0.5"/>
+
+  <!-- Walking Path & Park Bench -->
+  <path d="M 240 450 L 360 450 L 320 350 L 280 350 Z" fill="#FFF9FA" opacity="0.9"/>
+  
+  <!-- Sakura Tree Blossoms on the Left -->
+  <path d="M 40 450 Q 70 300 100 240" stroke="#703850" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="90" cy="220" r="35" fill="#FF8FAB" opacity="0.85"/>
+  <circle cx="130" cy="200" r="40" fill="#FFB6C6" opacity="0.9"/>
+  <circle cx="70" cy="180" r="30" fill="#FF8FAB" opacity="0.85"/>
+  <circle cx="120" cy="160" r="28" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- Street Lantern with Soft Glow -->
+  <line x1="480" y1="410" x2="480" y2="250" stroke="#4A2535" stroke-width="5"/>
+  <polygon points="465,250 495,250 490,225 470,225" fill="#FCD34D" stroke="#4A2535" stroke-width="3"/>
+  <circle cx="480" cy="238" r="22" fill="#FEF08A" opacity="0.5"/>
+
+  <!-- Two Cute Friends Silhouette Walking Hand in Hand -->
+  <g transform="translate(255, 280)">
+    <!-- Person 1 (Bow Girl) -->
+    <circle cx="25" cy="25" r="14" fill="#4A2535"/>
+    <!-- Cute Bow on hair -->
+    <path d="M 12 18 C 6 12 2 16 6 22 Z" fill="#FF6B8B"/>
+    <path d="M 16 18 C 22 12 26 16 22 22 Z" fill="#FF6B8B"/>
+    <path d="M 15 38 L 35 38 L 40 75 L 10 75 Z" fill="#FF6B8B" stroke="#4A2535" stroke-width="2"/>
+    <line x1="18" y1="75" x2="18" y2="95" stroke="#4A2535" stroke-width="4"/>
+    <line x1="32" y1="75" x2="32" y2="95" stroke="#4A2535" stroke-width="4"/>
+
+    <!-- Person 2 -->
+    <circle cx="65" cy="23" r="15" fill="#4A2535"/>
+    <path d="M 52 38 L 78 38 L 78 72 L 52 72 Z" fill="#89CFF0" stroke="#4A2535" stroke-width="2"/>
+    <line x1="58" y1="72" x2="58" y2="95" stroke="#4A2535" stroke-width="4"/>
+    <line x1="72" y1="72" x2="72" y2="95" stroke="#4A2535" stroke-width="4"/>
+
+    <!-- Holding hands in center with a heart floating above -->
+    <line x1="36" y1="48" x2="54" y2="48" stroke="#4A2535" stroke-width="4" stroke-linecap="round"/>
+    <text x="45" y="10" font-size="20" text-anchor="middle" fill="#FF3366">💖</text>
+  </g>
+
+  <!-- Drifting Sakura Petals in wind -->
+  <circle cx="210" cy="250" r="4" fill="#FF6B8B" opacity="0.8"/>
+  <circle cx="260" cy="210" r="5" fill="#FFB6C6" opacity="0.8"/>
+  <circle cx="380" cy="230" r="4" fill="#FF6B8B" opacity="0.8"/>
+  <circle cx="430" cy="270" r="5" fill="#FFB6C6" opacity="0.8"/>
+
+  <!-- Caption Pill in Art -->
+  <rect x="180" y="405" width="240" height="30" rx="15" fill="#FFFFFF" stroke="#FF8FAB" stroke-width="2"/>
+  <text x="300" y="425" font-family="'Fredoka', sans-serif" font-size="13" font-weight="bold" fill="#4A2535" text-anchor="middle">
+    Golden Hour Sunset Walk 🌅✨
+  </text>
+</svg>
